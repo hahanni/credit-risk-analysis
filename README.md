@@ -1,6 +1,8 @@
 # credit-risk-analysis
 ### Author: Hanna Hajdu
 
+<body>
+    
 ## Business Challenges and Project Objectives
 <p>
 From the lender’s perspective, loan is like an investment. As someone who has been experimenting with different trading strategies, I understand that an investment comes with risk by nature and losses are inevitable. The question is not how can we avoid loss at all costs, but how can we allocate our resources wisely to <b>minimize risk</b> and its impact, while protecting our capital and <b>maximizing our profit</b> in the long run. </p>
@@ -67,13 +69,15 @@ How can an adverse event be predicted? What characteristics are associated with 
 #### Loan Grades
 <p><b>Loan grades</b> are meant to be a summative measure, guiding the mitigation of risk associated with loan by strategic interest rate assignment. In accordance with this, loan grades were found to <b>strongly correlate with interest rates, default history</b> and <b>default rates</b>. This finding suggests that loan grade does <b>capture risk-related information and holds predictive value</b>. </p>
 <p>The variables that loan grade correlates with do not completely overlap with the ones default rate has relationship with, implying that there may be a chance to refine grade boundaries based on observations.</p>
-<img src="risk analysis/images/loan_grades.png">
+<img src="risk analysis/images/loan_grades_cut.png", width="800">
 
 #### Default Rate
 <p>The analysis has successfully <b>narrowed down the scope of factors</b> that potentially play a role in driving risk. The factors that associate with loan status are <b>loan grade, loan-to-income ratio, annual income, home ownership status</b> and <b>interest rate</b>. 
 Financial profile related information seemed to have an impact on loan status, as loan-to-income ratios and income details both appeared to correlate with default rates. This finding suggests that other financial factors may also be worth investigating in accordance with defaulting.</p>
-<img src="risk analysis/images/def_rate.png">
+<img src="risk analysis/images/def_rate.png", width="800">
 
 #### Next Steps Based on Findings
 <p>With loan grades identified as risk-based groups, the objective of the planned risk segmentation became even more clear. The analysis will focus on distributing clients into risk categories and the new segments' performance will be checked against loan grades to see if the data at hand is sufficient for optimizing the original grades.</p>
 <p>For the predictive purpose of the project, the EDA recognized errors in the dataset that need to be handled before training the model, such as missing values, outliers and small number categories.</p>
+
+</body>
